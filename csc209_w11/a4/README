@@ -1,6 +1,6 @@
 To run the Terrible Drawing Program in Linux:
 	1. Run the server by entering 
-		tgdpserver <portnum>
+		tgdpserver -p <portnum>
 	where <portnum> is replaced by a number larger than 1024
 	
 	2. Run the client by entering 
@@ -9,7 +9,8 @@ To run the Terrible Drawing Program in Linux:
 	to tgdpserver
 	
 	3. The Terrible Drawing Program window pop-ups up which
-	allows one or more clients to draw upon the window and see 
-	the effects of other clients' draw commands connected via
-	the same port number
+	allows a client to draw upon the window and see the effects
+	of other clients' draw commands who are connected through
+	the same port number to their own windows
+	
 	
