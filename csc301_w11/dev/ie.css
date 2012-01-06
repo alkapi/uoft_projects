@@ -1,0 +1,368 @@
+html {
+        background: -webkit-linear-gradient(bottom, #000000, #505050) fixed;
+        background-color: #000000;
+}
+body {	
+        text-align: center;
+		padding-top: 25px;
+        font-family: Helvetica;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+
+}
+body * {
+        text-align: left;
+}
+#container {
+        width: 860px; margin: auto; margin-top: 0px; padding: 30px;
+    	background: -webkit-linear-gradient(top, rgb(237, 237, 237), rgb(190, 190, 190)) ;
+    	background-color: rgb(237, 237, 237);
+    	color: black;
+        position: relative;
+        border-radius: 15px 15px 15px 15px;
+}
+#tablike {
+    min-height: 320px;
+}
+#header img {
+    float: left;
+}
+#header{
+        padding-left: 0px;
+        float: right;
+        margin-bottom: 30px;
+}
+h1 {
+        color: rgb(220, 10, 10);
+}
+h1.mainhead {
+        text-align: center;
+        float: right;
+        margin-left: 30px;
+        margin-right: 100px;
+        margin-top: 30px;
+}
+h2{
+	padding-left: 30px;
+	color: #444;
+}
+#subheader{
+        float: left;
+        margin-left: 60px;
+        margin-bottom: 10px
+}
+h3{
+        margin-right: 50px;
+}
+.lbutton {
+        text-align: center;
+    background: none repeat scroll 0 0 rgb(220, 12, 12);
+    border-color: -moz-use-text-color -moz-use-text-color #6D850C;
+    border-radius: 4px 4px 4px 4px;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    width: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#loginform{
+    width: 520px;
+        display: inline-block;
+}
+#logindiv {
+    border: medium dotted;
+    margin-left: 80px;
+    text-align: right;
+    width: 270px;
+        padding-left: 10px;
+}
+#logindiv * { margin: 5px; }
+.input{
+        border-color: #ffffff;
+        border-radius: 4px 4px 4px 4px;
+        border-style: none none solid;
+        border-width: 0 0 1px;
+        height: 20px;
+        width: 150px;
+}
+.reg_fields {
+    padding-left: 10px;
+    text-align: right;
+    width: 290px;
+}
+.reg_fields * {
+        margin-bottom: 10px;
+}
+#regdiv {
+    width: 300px;
+        position: absolute;
+            right: 0;
+                top: 150px;
+}
+.sqbutton {
+    background: -webkit-linear-gradient(#eb0b0b, #b00b0b) scroll;
+    background-color: #eb0b0b;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 80px;
+}
+p.footer{
+        font-size: 14px;
+        clear: both;
+        margin-left: 60px;
+        margin-top: 40px;
+
+}
+#login_err{
+        margin-left: 80px;
+        margin-bottom: 20px;
+        color: #DC0A0A;
+        width: 400px;
+        float: left;
+}
+h1.profile_header {
+	margin-top: 0px;
+	text-align: left;
+	font-size: 28pt;
+	color: #eb0b0b;
+}
+#menu {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 0 10px;
+	list-style-type: none;
+	font-size: 15px;
+	background: #eee;
+	height: 40px;
+	width: 860px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-top: 2px solid #eee;
+	border-left: 2px solid #eee;
+	border-bottom: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+}
+#menu li {
+	cursor: pointer;
+	float: left;
+	margin: 0;
+}
+#menu li a {
+	text-decoration: none;
+	display: block;
+	padding: 0 20px;
+	line-height: 40px;
+	color: #666;
+}
+#menu li.active a {
+	background-color: #f5f5f5;
+	border-bottom: 2px solid #DDD;
+	color: #eb0b0b;
+}
+#logout {
+	padding-left: 450px;
+}
+#logout_parent {
+	padding-left: 80px;
+}
+.blocked {
+	border: 2px solid black;
+	background-color: #eb0b0b;
+	text-decoration: line-through;
+}
+.open {
+	border: 2px solid black;
+	background-color: green;
+}
+#teachertime table {
+	height: 250px;
+	width: 800px;
+	text-align: center;
+	font-size: 23px;
+	color: rgb(237, 237, 237);
+}
+.hide {
+	display: none;
+}
+.open:hover {
+	border: 2px solid red;
+}
+.blocked:hover {
+	border: 2px solid green;
+}
+.booked {
+
+	background-color: brown;
+	text-decoration: line-through;
+	border: 2px solid black;
+}
+.timeslot {
+	cursor: pointer;
+}
+.box{
+	border: 2px solid black;
+	float:left;
+	width:30px;
+	height:30px;
+	margin-right: 10px;
+}
+.green{
+	background-color: green;
+}
+.brown{
+	background-color: brown;
+}
+.red{
+	background-color: red;
+}
+.box-cont {
+	margin-bottom:20px; 
+}
+div#students{
+	float: left;
+	width: 150px;
+	height: 300px;
+}
+ul#studentlist{
+	list-style: none;
+	margin-left: 20px;
+	padding: 0px;
+	font: normal 18px verdana;
+}
+li.student{
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding-left: 10px;
+	display: block;
+	border-bottom: 2px solid #DDD;
+}
+#studentlist li a {
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	cursor: pointer;
+	color: #666;
+}
+/*#studentlist li a:hover, #studentlist li.activeStu a {
+	background-color: #f5f5f5;
+	border-bottom: 2px solid #DDD;
+	color: #999;
+}*/
+li.activeStu a {
+	background-color: #f5f5f5;
+	color: #eb0b0b;
+}
+div#courses{
+	float: left;
+	margin-left: 0px;
+}
+ul#courses{
+	margin-top: 0;
+	margin-right: 10px;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+	text-decoration: underline;
+	font-family: monospace;
+	font-size: 20px;
+	float: left;
+	cursor: pointer;
+	text-decoration: none;
+}
+ul#courses li{
+	border-bottom: 2px solid #DDD;
+}
+li.activeCourse{
+	background-color: #f5f5f5;
+	border-bottom: 2px solid #DDD;
+	color: #eb0b0b;
+}
+div#booktable{
+	float:left
+	margin-left: 20px;
+}
+li img{
+	margin-right: 10px;
+}
+#greentd{
+	background-color: green;
+	width: 20px;
+}
+#redtd{
+	background-color: red;
+	width: 20px;
+}
+#spacetd{
+	width: 30px;
+}
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:99999 !important;
+	
+	/* styling */
+	background-color: rgb(237, 237, 237);
+
+	width:400px;	
+	min-height:200px;
+	border:1px solid #666;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+ul#schedulelist{
+	list-style: none;
+	margin-left: 20px;
+	padding: 0px;
+	font: normal 18px verdana;
+}
+#schedulelist li a {
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	cursor: pointer;
+	color: #666;
+}
+div#scheduletable{
+	float: left;
+	margin-left: 20px;
+}
+.parentCancel{
+    text-decoration: underline;
+    color: #eb0b0b !important;
+    cursor: pointer;
+}
+#confirm{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#cancel{
+    font-size: 20px;
+}

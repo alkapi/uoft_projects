@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loading</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<script src="main.js"></script>
+	<style>
+	
+	body {
+	    background-color: rgb(237, 237, 237); /* Background color */
+	    color: #222; /* Foreground color used for text */
+	    font-family: Helvetica;
+	    font-size: 14px;
+	    margin: 0; /* Amount of negative space around the outside of the body */
+	    padding: 0; /* Amount of negative space around the inside of the body */
+	    height: 416px;
+	    /* Make the whole webpage text unselectable */
+	    -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+	    -o-user-select: none;
+	    user-select: none;
+	}
+	h1{
+		font-size: 30px;
+		margin: auto;
+		text-align: center;
+	}
+	
+	#floatingCirclesG{
+	margin: auto;
+	width:300px;
+	height:300px;
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6)}
+	
+	.f_circleG{
+	position:absolute;
+	background-color: rgb(237, 237, 237);
+	height:55px;
+	width:55px;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	-webkit-animation-name:f_fadeG;
+	-webkit-animation-duration:1.04s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:linear;
+	-moz-animation-name:f_fadeG;
+	-moz-animation-duration:1.04s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:linear}
+	
+	#frotateG_01{
+	left:0;
+	top:123px;
+	-webkit-animation-delay:0.39s;
+	-moz-animation-delay:0.39s}
+	
+	#frotateG_02{
+	left:35px;
+	top:35px;
+	-webkit-animation-delay:0.52s;
+	-moz-animation-delay:0.52s}
+	
+	#frotateG_03{
+	left:123px;
+	top:0;
+	-webkit-animation-delay:0.65s;
+	-moz-animation-delay:0.65s}
+	
+	#frotateG_04{
+	right:35px;
+	top:35px;
+	-webkit-animation-delay:0.78s;
+	-moz-animation-delay:0.78s}
+	
+	#frotateG_05{
+	right:0;
+	top:123px;
+	-webkit-animation-delay:0.9099999999999999s;
+	-moz-animation-delay:0.9099999999999999s}
+	
+	#frotateG_06{
+	right:35px;
+	bottom:35px;
+	-webkit-animation-delay:1.04s;
+	-moz-animation-delay:1.04s}
+	
+	#frotateG_07{
+	left:123px;
+	bottom:0;
+	-webkit-animation-delay:1.1700000000000002s;
+	-moz-animation-delay:1.1700000000000002s}
+	
+	#frotateG_08{
+	left:35px;
+	bottom:35px;
+	-webkit-animation-delay:1.3s;
+	-moz-animation-delay:1.3s}
+	
+	@-webkit-keyframes f_fadeG{
+	0%{
+	background-color:#000000}
+	
+	100%{
+	background-color:rgb(237, 237, 237)}
+	
+	}
+	
+	@-moz-keyframes f_fadeG{
+	0%{
+	background-color:#000000}
+	
+	100%{
+	background-color:rgb(237, 237, 237)}
+	
+	}
+	
+	</style>
+	
+</head>
+<body>
+	<div id="floatingCirclesG">
+	<div class="f_circleG" id="frotateG_01">
+	</div>
+	<div class="f_circleG" id="frotateG_02">
+	</div>
+	<div class="f_circleG" id="frotateG_03">
+	</div>
+	<div class="f_circleG" id="frotateG_04">
+	</div>
+	<div class="f_circleG" id="frotateG_05">
+	</div>
+	<div class="f_circleG" id="frotateG_06">
+	</div>
+	<div class="f_circleG" id="frotateG_07">
+	</div>
+	<div class="f_circleG" id="frotateG_08">
+	</div>
+	</div>
+	
+	<h1>Loading...</h1>
+</body>
+</html>
