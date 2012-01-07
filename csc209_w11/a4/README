@@ -12,5 +12,8 @@ To run the Terrible Drawing Program in Linux:
 	allows a client to draw upon the window and see the effects
 	of other clients' draw commands who are connected through
 	the same port number to their own windows
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 7a5d4cae8d67fcb54491187aa0d3206e09d9c33b
 	
